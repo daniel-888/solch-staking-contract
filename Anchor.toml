@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.mainnet]
+solch_staking_contract = "6Pf6bCr94Y8UFwDWneMbyWNUDtv9LRowVwGR9DzKUACD"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "https://solana-api.projectserum.com"
+wallet = "/opt/Apyra/solch-mainnet.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
